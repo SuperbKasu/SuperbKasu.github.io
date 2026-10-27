@@ -1,0 +1,18 @@
+{
+	// Markdown ファイルの先頭で `post` と打って Tab（または Ctrl+Space）で記事の雛形を挿入
+	"Blog post frontmatter": {
+		"scope": "markdown,mdx",
+		"prefix": "post",
+		"body": [
+			"---",
+			"title: ${1:タイトル}",
+			"pubDate: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+			"# description: ${2:概要（省略可）}",
+			"# draft: true",
+			"---",
+			"",
+			"$0"
+		],
+		"description": "ブログ記事のフロントマター"
+	}
+}
