@@ -1,5 +1,5 @@
 ---
-title: はじめての記事
+title: Claudeお手製自動記事
 pubDate: 2026-10-27
 ---
 

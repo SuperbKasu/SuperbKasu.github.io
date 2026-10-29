@@ -7,7 +7,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	// GitHub Pages の URL（リポジトリ名を <ユーザー名>.github.io にする想定）
-	site: 'https://YOUR-GITHUB-USERNAME.github.io',
+	site: 'https://SuperbKasu.github.io',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
